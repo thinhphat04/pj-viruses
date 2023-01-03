@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="./css/Login.css">
+
+    <link rel="stylesheet" href="./css/nav_bar.css">
+</head>
+
+<body>
+    <div id="nav-placeholder">
+        <header class="header_nav">
+            <div></div>
+            <a href="Homepage.html" class="brand123">Vertex.</a>
+            <div></div>
+            <div class="navigation123">
+              <div class="navigation-items">
+                <!-- <a href="">Virus <i class="fa fa-caret-down"></i></a> -->
+                <div class="dropdown123">
+                  <button class="dropbtn123">Virus
+                    <!-- <i class="fa fa-caret-down"></i> -->
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content123">
+                    <a href="YearWiseListing.html">Year Wise Listing </a>
+                    <a href="Typeofvirus.html">Type Of Virus</a>
+                  </div>
+                </div>
+                <a href="covid19.html">Covid-19</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Aboutus.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="Register.html">Register</a>
+              </div>
+            </div>
+            <div></div>
+          </header>
+
+    </div>
+
+    <form>
+        <div class="login_form">
+            <div class="login">
+                <h1>Login</h1>
+                <input type="text" placeholder="Enter email">
+                <input type="password" placeholder="Enter password">
+                <div class="between">
+                    <div class="remember">
+                        <input type="checkbox" name="remember_me" id="remember_me" value="Remember Me"> 
+                    <label for="remember_me">Remember Me</label>
+                    </div>
+                    <div class="forgot">
+                        <a href="">Forgot password?</a>
+                    </div>
+                </div>
+                <div class="button"><button>Login</button></div>
+                <h3>Quick access with</h3>
+                <div class="access">
+
+                    <div class="icon">
+                        <i class="fa-brands fa-google" style="color: red;"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f" style="color: blue;"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter" style="color: aqua;"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram" style="color: pink;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="picture_login">
+                <img src="img/7bf253be-illustration_.png" alt="">
+            </div>
+        </div>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+</body>
+
+</html>
